@@ -1,8 +1,13 @@
 <svg viewBox="0 0 10 10"
 	xmlns="http://www.w3.org/2000/svg">
 	<script>
-   		alert("Hello, world!")
+	alert("XSS")
 	</script>
+	<style>
+		*:hover {
+			background: red;
+		}
+	</style>
 
 	<circle cx="5" cy="5" r="4" />
 </svg>
